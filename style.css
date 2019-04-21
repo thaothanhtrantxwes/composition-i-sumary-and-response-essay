@@ -48,8 +48,8 @@ body {
 #line {
     position: absolute;
     display: inline;
-    border: solid #898989;
-    border-width: 3px 0 0 0;
+    border: solid #000000;
+    border-width: 2px 0 0 0;
     margin-top: 9px;
     margin-left: 3px;
     padding: 15px;
@@ -87,7 +87,7 @@ body {
     height: 210px;
     
     top: 110px;
-    margin-left: 20%;
+    margin-left: 35%;
     z-index: 0;
     
     background-color: #fff;
@@ -110,19 +110,19 @@ body {
         top: -31px;
     
         position: relative;
-        display: inline-block;
+        display: none;
         right: 34px;
     }
         #box {
         position: absolute;    
         z-index: 1;
-        top: 17px;
+        top: 18px;
         left: 5px;
         
-        width: 13px;
-        height: 13px;
+        width: 11px;
+        height: 11px;
     
-        border: 2px solid #C0ED56;
+        border: 0px solid #C0ED56;
         background-color: #C0ED56;
             
         }
@@ -130,7 +130,7 @@ body {
 /*container*/
 .container {
     display: inline-block;
-    margin-left: 31%;
+    margin-left: 43%;
 
     width: 600px;
     
@@ -148,7 +148,7 @@ body {
     
     background-color: #fff;
 
-    padding: 0px 0 80px 0;
+    padding: 0px 0 130px 0;
     width: 120px;
     text-align: right;
     
@@ -161,16 +161,16 @@ body {
 #asm {
     position: relative;
     
-    background-color: #fff;
-    padding: 10px 40px 5px 12px;
-    border: 1px solid #314289;
+    background-color: #314289;
+    padding: 10px 30px 6px 13px;
+    border: 0px solid #fff;
     
     text-transform: uppercase;
-    color: #314289;
+    color: #fff;
     
     font-family: Nunito;
-    font-size: 13px; 
-    letter-spacing: 1.3px;
+    font-size: 13.5px; 
+    letter-spacing: 1.4px;
 }
 
 .project {
@@ -179,32 +179,16 @@ body {
 }
 
 
-.writingpiece {
-    position: relative;
-}
-
-.writingpiece p {
-
-    display: block;
-    color: #000;
-    font-size: 15.5px;
-    letter-spacing: 0.7px;
-    line-height: 1.7;
-    font-family: Libre Baskerville;
-    
-    padding-bottom: 6px;
-}
-
 /*grade*/
 
 .grade {
     position: relative;
-    margin-top: 0px;
+    margin-top: 18px;
 
     
-    width: 400px;
-    border: 1px solid #cccccc;
-    padding: 80px 30px 0 25px;
+    width: 420px;
+    border: 1px solid #d3d3d3;
+    padding: 92px 30px 0 25px;
 }
 
 
@@ -219,16 +203,16 @@ body {
   
     border-top: 9px solid #000;
     
-    top: 54px;
-    right: 87px;
+    top: 62px;
+    right: 92px;
 }
 
 .grade::after {
     content: "";
     position: absolute;
     
-    top: 88px;
-    right: 87px;
+    top: 100px;
+    right: 92px;
         
     width: 13px;
     height: 13px;
@@ -237,7 +221,9 @@ body {
 }
 
 .grade img {
-    width: 100%;
+    position: relative;
+    width: 340px;
+    left: 19px;
 }
 
 .project-intro i {
@@ -263,13 +249,13 @@ body {
     width: 250px;
     height: 350px;
     
-    border: 1px solid #cccccc;
+    border: 1px solid #d3d3d3;
     padding: 80px 30px 0 25px;
 }
 
 .project-intro {
     padding-left: 1px;
-    padding-top: 25px;
+    padding-top: 0px;
     padding-bottom: 30px;
 }
 
@@ -278,7 +264,7 @@ body {
 .project-data {
     position: relative;
     margin-top: 30px;
-    margin-bottom: 200px;
+    margin-bottom: 220px;
     
     width: 490px;
     border-top: 9px solid #FFDC4A;
